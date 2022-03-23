@@ -88,10 +88,6 @@
     color: #f0c997;
 }
 
-.mycolorbg{
-    background: rgba(255, 255, 255, 0.5);
-}
-
 .mybutton {
         background-color: #f0c997;
         color: rgb(65, 63, 58);
@@ -100,7 +96,7 @@
         border: solid;
         border-color: #f0c997;
 
-        padding: 16px 62px;
+        padding: 8px 16px;
 
         text-align: center;
         font-weight: bolder;
@@ -143,19 +139,6 @@
 }
 
 
-.mycard{
-    margin: 120px;
-    padding: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-
-    border-style: solid;
-    border-width: 20px;
-    border-color: #f0c997;
-    border-radius: 8px;
-
-}
-
 .myitem{
     background-color: #ffffff;
     border-radius: 8px;
@@ -170,13 +153,6 @@
 .myimg{
     background-color: #f7f7f7;
 }
-
-.mybg{
-    background-image: url('./image/spa-therapy3.jpg');
-    background-repeat: none;
-    background-size: cover;
-}
-
 
 
     </style>
@@ -199,7 +175,7 @@
         <div id="myNav" class="collapse navbar-collapse justify-content-end m-2" style="font-size: 18px;">
                 <ul class="navbar-nav">
                         <div class="dropdown">
-                            <li class="nav-item mr-5"><a href="index.html" class="nav-link" data-toggle="tab">Home</a></    li>
+                            <li class="nav-item mr-5"><a href="index.html" class="nav-link" data-toggle="tab">Home</a></li>
                                 <div class="dropdown-content">
                                     <a href="index.html">Home</a>
                                     <a href="#">Link 2</a>
@@ -257,13 +233,11 @@
             <li data-targert="#meucarrossel" data-slide-to="2"></li>
         </ul>
 
-        <div class="carousel-inner ">
-            <div class="carousel-item active" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.2)url(./image/spa_therapy.jpg); 
-            background-repeat: none; background-size: cover; background-blend-mode: darken; padding: 200px;" >
-                <h1 style="font-size: 30px; padding-bottom: 40px; font-family: 'Times New Roman', Times, serif;">
-                    Bem vindo ao espaço de beleza</h1>
-                <h1 style="font-size: 60px; padding-bottom: 40px; font-family:'Times New Roman', Times, serif;"
-                 >SPA & TRATAMENTO <br>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.3)url(./image/spa_therapy.jpg); 
+            background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;" >
+                <h3 style=" padding-bottom: 40px;">Bem vindo ao espaço spa</h2>
+                <h1 style=" padding-bottom: 40px;" >SPA & TRATAMENTO <br>
                     DE BELEZA</h1>
                     <div class="pt-3">
                         <button class="mybutton">Saber Mais</button>
@@ -271,12 +245,10 @@
                     </div>
             </div>
 
-            <div class="carousel-item" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.2)url(./image/spa-therapy1.jpeg); 
-            background-repeat: none; background-size: cover; background-blend-mode: darken; padding: 200px;" >
-                <h1 style="font-size: 30px; padding-bottom: 40px; font-family: 'Times New Roman', Times, serif;">
-                    Bem vindo ao espaço de beleza</h1>
-                <h1 style="font-size: 60px; padding-bottom: 40px; font-family: 'Times New Roman', Times, serif;" >
-                    SPA & TRATAMENTO <br>
+            <div class="carousel-item" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.3)url(./image/spa-therapy1.jpeg); 
+            background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;" >
+                <h3 style=" padding-bottom: 40px;">Bem vindo ao espaço spa</h2>
+                <h1 style=" padding-bottom: 40px;" >SPA & TRATAMENTO <br>
                     DE BELEZA</h1>
                     <div class="pt-3">
                         <button class="mybutton">Saber Mais</button>
@@ -284,18 +256,16 @@
                     </div>
             </div>
 
-             <div class="carousel-item" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.2)url(./image/spa-therapy2.jpg); 
-            background-repeat: none; background-size: cover; background-blend-mode: darken; padding: 200px;" >
-                <h1 style="font-size: 30px; padding-bottom: 40px; font-family: 'Times New Roman', Times, serif;">
-                    Bem vindo ao espaço de beleza</h1>
-                <h1 style="font-size: 60px; padding-bottom: 40px; font-family: 'Times New Roman', Times, serif;" >
-                    SPA & TRATAMENTO <br>
-                    DE BELEZA</h1>
-                    <div class="pt-3">
-                        <button class="mybutton">Saber Mais</button>
-                        <button class="mybutton">Saber Mais</button>
-                    </div>
-            </div>
+             <div class="carousel-item" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.3)url(./image/spa-therapy2.jpg); 
+             background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;" >
+                 <h3 style=" padding-bottom: 40px;">Bem vindo ao espaço spa</h2>
+                 <h1 style=" padding-bottom: 40px;" >SPA & TRATAMENTO <br>
+                     DE BELEZA</h1>
+                     <div class="pt-3">
+                         <button class="mybutton">Saber Mais</button>
+                         <button class="mybutton">Saber Mais</button>
+                     </div>
+             </div>
         </div>
 
         <a class="carousel-control-prev" href="#meucarrossel" data-slide="prev">
@@ -311,15 +281,17 @@
 
          <!-- Cartão de visita -->
 
-        <div class="mycard rounded">
-            <div class=" d-flex justify-content-center">
-                <div class="w-75 px-3">
+        <div style="margin: 5%; border-style: solid; border-width: 20px;
+        border-color: #f0c997; border-radius: 8px;">
+
+            <div class=" d-md-flex">
+                <div class="pr-lg-3 pl-5 pt-5 pb-md-5">
                     <h5>LUXURY SPA TREATMENTS</h5>
-                    <h1>Revitalise Your Mind, Body And Spirit
+                    <h2>Revitalise Your Mind, Body And Spirit
                         With The Luxury Spa.</h1>
                 </div>
 
-                <div  class="w-75 px-3">
+                <div  class="pr-5 pl-5 pt-5 pb-5">
                     <h5>O Palestrante</h5>
                     <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
                         mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
@@ -336,8 +308,8 @@
 
         <!-- itens & icon selecionaveis  -->
 
-        <div class=" d-flex pt-5 justify-content-between">
-                <div class="myitem text-center w-25">
+        <div class=" d-md-flex pt-5 row justify-content-md-center">
+                <div class="col-md myitem text-center">
                     <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
                     <h2>Beauty & Clinic
                         Service</h2>
@@ -346,7 +318,7 @@
                         ut labore et dolore magna aliqua.</a>
                 </div>
 
-                <div class="myitem text-center w-25 ">
+                <div class="col-md myitem text-center">
                     <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
                     <h2>Beauty & Clinic
                         Service</h2>
@@ -355,7 +327,7 @@
                         ut labore et dolore magna aliqua.</a>
                 </div>
 
-                <div class="myitem text-center w-25 ">
+                <div class="col-md myitem text-center">
                     <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
                     <h2>Beauty & Clinic
                         Service</h2>
@@ -365,248 +337,222 @@
                 </div>
         </div>
 
-        <div class=" d-flex pt-5 justify-content-between">
-                <div class="myitem text-center w-25 ">
-                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                    <h2>Beauty & Clinic
-                        Service</h2>
-                    <a>Lorem ipsum dolor sit amet, consectetur adip
-                        isicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua.</a>
-                </div>
+        <div class=" d-md-flex pt-5 row justify-content-md-center">
+            <div class="col-md myitem text-center">
+                <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                <h2>Beauty & Clinic
+                    Service</h2>
+                <a>Lorem ipsum dolor sit amet, consectetur adip
+                    isicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.</a>
+            </div>
 
-                <div class="myitem text-center w-25 ">
-                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                    <h2>Beauty & Clinic
-                        Service</h2>
-                    <a>Lorem ipsum dolor sit amet, consectetur adip
-                        isicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua.</a>
-                </div>
+            <div class="col-md myitem text-center">
+                <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                <h2>Beauty & Clinic
+                    Service</h2>
+                <a>Lorem ipsum dolor sit amet, consectetur adip
+                    isicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.</a>
+            </div>
 
-                <div class="myitem text-center w-25 ">
-                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                    <h2>Beauty & Clinic
-                        Service</h2>
-                    <a>Lorem ipsum dolor sit amet, consectetur adip
-                        isicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua.</a>
-                </div>
-
-        </div>
+            <div class="col-md myitem text-center">
+                <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                <h2>Beauty & Clinic
+                    Service</h2>
+                <a>Lorem ipsum dolor sit amet, consectetur adip
+                    isicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.</a>
+            </div>
+    </div>
 
     </div>  <!-- final primeiro container  -->
 
 
-    <!-- imagem e com texto chamativo  -->
+    <!-- imagem com texto chamativo  -->
 
-    <div class="mybg text-left p-5" style="margin-top: 120px;">
-        <div class="w-50 p-5 m-5 mycolorbg font-weight-bold">
-            <h2>LUXURY SPA PREMIUM SERVICE</h2>
-            <h1>Quiet Service Salon, Spa Massage Service Providor Center.</h1>
+    <div class="text-center" style="background:rgba(0, 0, 0, 0.5)url(./image/spa-therapy3.jpg); 
+    background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 12%; padding-bottom: 12%;" >">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="font-weight-bold col col-lg-8" style="color: #f7f7f7;">
+                    <h5 class="col-sm">LUXURY SPA SERVICE</h5>
+                    <h3 class="col-sm">Quiet Service Salon, Spa Massage Service Providor Center.</h3>
 
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-             nisi ut aliquip ex ea commodo consequatuis aute irure dolor.</h4>
-             
-             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequatuis aute irure dolor.</h4>
+                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laborisnisi ut aliquip ex ea commodo
+                        consequatuis aute irure dolor.</p>
 
-                <div class="pt-3">
-                    <button class="mybutton">Saber Mais</button>
+                        <div class="pt-3">
+                            <button class="mybutton">Saber Mais</button>
+                        </div>
                 </div>
+            </div>
         </div>
     </div>
 
 
     <!-- serviços -->
 
-    <div style="font-family: 'Courier New', Courier, monospace; padding: 120px;">
-        <div class="text-center" style="font-weight: bolder;">
-            <h2 class="p-2" >Serviços</h2>
-            <h1>O QUE NOS FAZEMOS</h1>
-                <div class=" d-flex justify-content-center pt-5">
-                    <div class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
-                    </div>
-                    <div  class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
-                    </div>
-                    <div  class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
+    <div class="text-center pb-5 ">
+        <h3 class="font-weight-bolder" style="padding-top: 100px; color: #000000; font-family: inherit monospace;">BLOG</h3>
+        <h2 class="font-weight-bolder" style="padding-bottom: 20px; color: #000000; font-family: inherit monospace;">CONTEUDO DO BLOG</h2>
+            <div class=" d-md-flex justify-content-center pt-5">
+                <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                    <div style="color: #ffffff;">
+                        <h3>Beauty & Clinic <br>
+                            Service</h3>
+                        <a>Lorem ipsum dolor sit amet, consectetur adip
+                            isicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua</a>
                     </div>
                 </div>
 
-                <div class=" d-flex justify-content-center pt-5">
-                    <div class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
+                <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                    <div style="color: #ffffff;">
+                        <h3>Beauty & Clinic <br>
+                            Service</h3>
+                        <a>Lorem ipsum dolor sit amet, consectetur adip
+                            isicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua</a>
                     </div>
-                    <div  class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
+                </div>
+
+               <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                    <div style="color: #ffffff;">
+                        <h3>Beauty & Clinic <br>
+                            Service</h3>
+                        <a>Lorem ipsum dolor sit amet, consectetur adip
+                            isicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua</a>
                     </div>
-                    <div  class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
-                            <h3>Beauty & Clinic <br>
-                                Service</h3>
-                            <a>Lorem ipsum dolor sit amet, consectetur adip
-                                isicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua</a>
-                        </div>
-                    </div>
-                 </div>
-        </div>
+                </div>
+            </div>
     </div>
 
-    <!-- equipe  -->
+     <!-- equipe  -->
 
-    <div class="mt-5 pt-5 pb-5" style="background-color: #313131;">
-        <div class="text-center pt-5 ">
-            <h3 class="p-2" style="font-size: 40px; color: #ffffff; font-family: 'Courier New', Courier, monospace;">TEAM</h3>
-            <h2 style="font-size: 60px; color: #ffffff; font-family: 'Courier New', Courier, monospace;">NOSSA EQUIPE</h2>
-                <div class=" d-flex justify-content-center pt-5 ">
+     <div class="pt-5 pb-5" style="background-color: #313131;">
+        <div class=" text-center pt-5">
+            <h3 class="font-weight-bolder p-2" style=" color: #ffffff; font-family: inherit monospace;">SOBRE</h3>
+            <h2 class="font-weight-bolder" style=" color: #ffffff; font-family: inherit monospace;">NOSSO TIME</h2>
+          
+            <div class=" d-md-flex justify-content-center pt-5 ">
                    
-                    <div class="pr-3">
-                        <div class="pb-3">
-                            <div class="">
-                                <img src="./image/business woman1.jpg" width="300" height="200">
-                            </div>
+                <div class="pr-3">
+                    <div class="pb-3">
+                        <div class="">
+                            <img src="./image/business woman1.jpg" width="300" height="200">
                         </div>
-                        <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
                     </div>
-
-                    <div class="pr-3">
-                        <div class="pb-3">
-                            <div class="">
-                                <img src="./image/business woman2.jpg" width="300" height="200">
-                            </div>
-                        </div>
-                        <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
-                    </div>
-
-                    <div class="pr-3">
-                        <div class="pb-3">
-                            <div class="">
-                                <img src="./image/business woman3.jfif" width="300" height="200">
-                            </div>
-                        </div>
-                        <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
-                    </div>
-
-                    <div class="pr-3">
-                        <div class="pb-3">
-                            <div class="">
-                                <img src="./image/business woman4.jpg" width="300" height="200">
-                            </div>
-                        </div>
-                        <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
-                    </div>
-
+                    <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
                 </div>
 
-                <button class="mybutton2 m-5" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
-               
+                <div class="pr-3">
+                    <div class="pb-3">
+                        <div class="">
+                            <img src="./image/business woman2.jpg" width="300" height="200">
+                        </div>
+                    </div>
+                    <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
+                </div>
+
+                <div class="pr-3">
+                    <div class="pb-3">
+                        <div class="">
+                            <img src="./image/business woman3.jfif" width="300" height="200">
+                        </div>
+                    </div>
+                    <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
+                </div>
+
+                <div class="pr-3">
+                    <div class="pb-3">
+                        <div class="">
+                            <img src="./image/business woman4.jpg" width="300" height="200">
+                        </div>
+                    </div>
+                    <button class="mybutton2" style="padding: 30px 70px">Nome Ultimo nome <br> profissao</button>
+                </div>
+            </div>
+            <button class="mybutton2" style="padding: 30px 70px">Saiba mais</button>
         </div>
     </div>
-
 
     <!-- video  -->
 
-    <div style="text-align: center; background-image: url('./image/background_therapy.jpg'); background-repeat: no-repeat; background-size: cover;" >
-        <h3 style="font-size: 40px; padding-top: 100px; color: #000000; font-family: 'Courier New', Courier, monospace;">LOGO</h3>
-        <h2 style="font-size: 60px; padding-bottom: 100px; color: #000000; font-family: 'Courier New', Courier, monospace;">NOSSO ESPAÇO</h2>
-        <div style="padding-bottom: 100px;">
-            <video src="./assets/X2Download.com-Lumion 10 _ Spa Interior Design-(1080p).mp4" width="1000" controls></video>
-       </div>
+    <div style="text-align: center; background-image: url('./image/background_therapy.jpg'); background-repeat: no-repeat;
+     background-size: cover;" >
+        <h3 class="font-weight-bolder" style="padding-top: 100px; color: #000000; font-family: inherit monospace;">LOGO</h3>
+        <h2 class="font-weight-bolder" style="padding-bottom: 20px; color: #000000; font-family: inherit monospace;">NOSSO ESPAÇO</h2>
+        <div style="padding-bottom: 40px;">
+            <div class="embed-responsive embed-responsive-21by9">
+                <video class="embed-responsive-item" src="./assets/X2Download.com-Lumion 10 _ Spa Interior Design-(1080p).mp4" width="1000" controls></video>
+            </div>
+        </div>
     </div>
+
 
 
     <!-- planos -->
 
     <div class="container">
         <div style="text-align: center;">
-            <h3 style="font-size: 30px; padding-top: 100px; color: #000000; font-family: 'Courier New', Courier, monospace;">LOGO</h3>
-            <h2 style="font-size: 50px; padding-bottom: 80px; color: #000000; font-family: 'Courier New', Courier, monospace;">NOSSO ESPAÇO</h2>
+            <h3 class="font-weight-bolder" style="padding-top: 100px; color: #000000; font-family: inherit monospace;">LOGO</h3>
+        <h2 class="font-weight-bolder" style="padding-bottom: 20px; color: #000000; font-family: inherit monospace;">NOSSO ESPAÇO</h2>
         </div>    
-            <div class=" d-flex pt-5 justify-content-between">
-                    <div class="myitem text-center w-25">
-                        <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                        <h2>Beauty & Clinic
-                            Service</h2>
-                        <a>Lorem ipsum dolor sit amet, consectetur adip
-                            isicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</a>
-                    </div>
-
-                    <div class="myitem text-center w-25 ">
-                        <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                        <h2>Beauty & Clinic
-                            Service</h2>
-                        <a>Lorem ipsum dolor sit amet, consectetur adip
-                            isicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</a>
-                    </div>
-
-                    <div class="myitem text-center w-25 " style="padding-bottom: 100px;">
-                        <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
-                        <h2>Beauty & Clinic
-                            Service</h2>
-                        <a>Lorem ipsum dolor sit amet, consectetur adip
-                            isicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</a>
-                    </div>
+            <div class=" d-md-flex pt-5 row justify-content-md-center">
+                <div class="col-md myitem text-center">
+                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                    <h2>Beauty & Clinic
+                        Service</h2>
+                    <a>Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua.</a>
                 </div>
+
+                <div class="col-md myitem text-center">
+                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                    <h2>Beauty & Clinic
+                        Service</h2>
+                    <a>Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua.</a>
+                </div>
+
+                <div class="col-md myitem text-center">
+                    <img src="./image/ico_escova.png" alt="Responsive image" class="myimg rounded-circle p-5">
+                    <h2>Beauty & Clinic
+                        Service</h2>
+                    <a>Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua.</a>
+                </div>
+            </div>
     </div>
 
 
     <!-- imagem sem conteudo -->
-
+s
     <div style="text-align: center;">
-        <img src="./image/spa-therapy4.jpg" alt="" width="1500" height="1000">
+        <img src="./image/spa-therapy4.jpg" width="100%" height="100%">
     </div>
 
 
      <!-- Blog -->
 
-     <div class="">
-        <div class="text-center p-5 ">
-            <h3 style="font-size: 40px; padding-top: 100px; color: #000000; font-family: 'Courier New', Courier, monospace;">Blog</h3>
-            <h2 style="font-size: 50px; padding-bottom: 100px; color: #000000; font-family: 'Courier New', Courier, monospace;"> Conteudo do blog</h2>
-                <div class=" d-flex justify-content-center pt-5">
-                    <div class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
+        <div class="text-center pb-5 ">
+            <h3 class="font-weight-bolder" style="padding-top: 100px; color: #000000; font-family: inherit monospace;">BLOG</h3>
+            <h2 class="font-weight-bolder" style="padding-bottom: 20px; color: #000000; font-family: inherit monospace;">CONTEUDO DO BLOG</h2>
+                <div class=" d-md-flex justify-content-center pt-5">
+                    <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                    background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                        <div style="color: #ffffff;">
                             <h3>Beauty & Clinic <br>
                                 Service</h3>
                             <a>Lorem ipsum dolor sit amet, consectetur adip
@@ -614,8 +560,10 @@
                                 ut labore et dolore magna aliqua</a>
                         </div>
                     </div>
-                    <div  class=" d-flex m-2 p-5" style="background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
+
+                    <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                    background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                        <div style="color: #ffffff;">
                             <h3>Beauty & Clinic <br>
                                 Service</h3>
                             <a>Lorem ipsum dolor sit amet, consectetur adip
@@ -623,8 +571,10 @@
                                 ut labore et dolore magna aliqua</a>
                         </div>
                     </div>
-                    <div  class=" d-flex m-2 p-5" style=" background-image: url('./image/spa-therapy3.jpg'); ">
-                        <div style="background-color: #ffffff; ">
+
+                   <div class=" d-flex m-2 p-5" style="color: #f7f7f7; background:rgba(0, 0, 0, 0.4)url(./image/spa-therapy3.jpg); 
+                    background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+                        <div style="color: #ffffff;">
                             <h3>Beauty & Clinic <br>
                                 Service</h3>
                             <a>Lorem ipsum dolor sit amet, consectetur adip
@@ -634,33 +584,30 @@
                     </div>
                 </div>
         </div>
-    </div>
 
 
     <!-- captura de email -->
 
-    <div style="padding-left: 120px; text-align: left; background-image: url(./image/background_spa2.jpg);">
-        <div class="w-50 " style="padding-top: 100px; padding-bottom: 100px;">
-            <h3 style="padding-top: 100px; font-size: 40px; color: #000000;">GET IN TOUCH</h3>
-            <h2 style="padding-top: 40px; padding-bottom: 60px; font-size: 50px; color: #000000;">Join Our Email List And Be The First To Know About Specials, Events And More!</h2>
-            <input id="email" name="email" type="text" placeholder="seu email" style="font-size: 30px; ">
+    <div style="padding-left: 5%; text-align: left; background-image: url(./image/background_spa2.jpg); 
+    background-repeat: none; background-size: cover; background-blend-mode: darken; padding-top: 15%; padding-bottom: 15%;">
+            <h3 class="pt-3 pb-3" style=" color: #000000;">GET IN TOUCH</h3>
+            <h5 class="pb-3 w-50" style=" color: #000000;">Join Our Email List And Be The First 
+                To Know About Specials, Events And More!</h5>
+            <input id="email" name="email" type="text" placeholder="seu email" style="font-size: 22px; ">
         </div>
     </div>
 
 
     <!-- final -->
 
-    <div class="pb-5 pb-5" style="background-color: #313131;">
+    <div class="pb-5" style="background-color: #313131;">
         <div class="text-left pt-5 ">
-                <div class=" d-flex justify-content-center pt-5 ">
+                <div class=" d-sm-flex justify-content-center">
                    
-                    <div class="w-25" style="color: #f7f7f7;">
+                    <div class="ml-5 pb-5" style="color: #f7f7f7;">
                       <h1>Kindspa</h1>
                       <a>Lorem ipsum dolor sit amet, consectetur <br>
                            adip isicing elit, sed do eiusmod tempor <br>
-                            incididunt ut labore et dolore magna aliqua. <br>
-                             Ut enim ad min im veniam, quis <br>
-                             nostrud exercitation ullamco nisi<br>
                               ut aliquip ex ea commodo consequat.</a> <br>
                     <button class="btn btn-info rounded-circle mt-3 mr-2">ac</button>
                     <button class="btn btn-info rounded-circle mt-3 mr-2">ac</button>
@@ -668,25 +615,22 @@
                     <button class="btn btn-info rounded-circle mt-3">ac</button>
                     
                     </div>
+                    
+                    <div class="d-flex">
+                        <div class="ml-5" style="color: #f7f7f7;">
+                            <h1>Mais Links</h1>
+                            <a>Home</a><br>
+                            <a>Services</a><br>
+                            <a>Treatments</a><br>
+                            <a>Privacy Policy</a><br>    
+                        </div>
 
-                    <div class="w-25" style="color: #f7f7f7;">
-                        <h1>Mais Links</h1>
-                        <a>Home</a><br>
-                        <a>Services</a><br>
-                        <a>Treatments</a><br>
-                        <a>Privacy Policy</a><br>
-                        <a>Careers</a><br>
-                        <a>Offers</a><br>       
-                    </div>
-
-                    <div class="w-25" style="padding-top: 60px; color: #f7f7f7;">
-                        <a>About</a><br>
-                        <a>Appointment</a><br>
-                        <a>Contact</a><br>
-                        <a>Terms & <br>
-                            Condintions</a><br>
-                        <a>Events</a><br>     
-                    </div>
+                        <div style="padding-top: 60px; color: #f7f7f7;">
+                            <a>About</a><br>
+                            <a>Appointment</a><br>
+                            <a>Contact</a><br>
+                        </div>
+                     </div>
                 </div>
                
         </div>
